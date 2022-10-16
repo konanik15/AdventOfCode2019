@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9c2e88-e49e-436b-8dff-35c2069fce28" name="Changes" comment="Day 1, AdventOfCode 2019">
-      <change afterPath="$PROJECT_DIR$/resources/day2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2.java" afterDir="false" />
+    <list default="true" id="3b9c2e88-e49e-436b-8dff-35c2069fce28" name="Changes" comment="Day 2, AdventOfCode 2019">
+      <change afterPath="$PROJECT_DIR$/resources/day3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665933093433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 2, AdventOfCode 2019">
+      <created>1665936878986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665936878986</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 2, AdventOfCode 2019">
+      <created>1665938465362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665938465362</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1, AdventOfCode 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1, AdventOfCode 2019" />
+    <MESSAGE value="Day 2, AdventOfCode 2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2, AdventOfCode 2019" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
