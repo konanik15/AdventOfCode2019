@@ -11,23 +11,25 @@ public class Day2 {
 
     public static ArrayList<Integer> programAlarm(ArrayList<Integer> data) {
 
-        for(int i=0;i <= data.size();i+=4) {
-            //Reading arguments for arethic
-            int arg1= data.get(data.get(i+1));
-            int arg2= data.get(data.get(i+2));
+        ArrayList<Integer> dataCopy = (ArrayList<Integer>) data.clone();
 
-            switch (data.get(i)) {
+        for(int i=0;i <= dataCopy.size();i+=4) {
+            //Reading arguments for arethic
+            int arg1= dataCopy.get(dataCopy.get(i+1));
+            int arg2= dataCopy.get(dataCopy.get(i+2));
+
+            switch (dataCopy.get(i)) {
                 case 1:
-                    data.set(data.get(i+3),arg1 + arg2);
+                    dataCopy.set(dataCopy.get(i+3),arg1 + arg2);
                     break;
                 case 2:
-                    data.set(data.get(i+3),arg1 * arg2);
+                    dataCopy.set(dataCopy.get(i+3),arg1 * arg2);
                     break;
                 default:
-                    return data;
+                    return dataCopy;
             }
         }
-        return data;
+        return dataCopy;
 
     }
 
@@ -41,10 +43,19 @@ public class Day2 {
             dataArr2.add(scanner.nextInt());
         }
 
-        dataArr2.set(1,12);
-        dataArr2.set(2,2);
 
-        System.out.println(programAlarm(dataArr2).get(0));
+        for(int i=0;i<=99;i++) {
+            for(int j=0;j<=99;j++){
+
+                dataArr2.set(1,i); // noun
+                dataArr2.set(2,j); // verb
+                int get0 = programAlarm(dataArr2).get(0);
+                if(get0 == 19690720) System.out.println("Wynik to: " + (100 * i + j));
+
+
+            }
+        }
+       // System.out.println(programAlarm(dataArr2).get(0));
 
     }
 
