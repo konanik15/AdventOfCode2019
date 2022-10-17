@@ -12,40 +12,33 @@ public class Day3 {
 
         HashMap<Point,Integer> wireMap = new HashMap<>();
 
+        int[] dir = new int[2];
+
         int x=0;
         int y=0;
         Point point = new Point(x,y);
 
         for(String move : wire1) {
 
+            dir[0] = 0;
+            dir[1] = 0;
+
             switch (move.charAt(0)) {
                 case 'R':
-
-
+                    dir[0] = 1;
                 case 'L':
-                    x -= Integer.parseInt(move.replaceAll("[\\D]", ""));
-                    Point point = new Point(x,y);
-                    if(wireMap.containsKey(point)){
-                        wireMap.put(point, wireMap.get(point) + 1 );
-                    }
-                    else wireMap.put(point,1);
+                    dir[0] = -1;
                 case 'U':
-                    y += Integer.parseInt(move.replaceAll("[\\D]", ""));
-                    Point point = new Point(x,y);
-                    if(wireMap.containsKey(point)){
-                        wireMap.put(point, wireMap.get(point) + 1 );
-                    }
-                    else wireMap.put(point,1);
+                    dir[1] = 1;
                 case 'D':
-                    y -= Integer.parseInt(move.replaceAll("[\\D]", ""));
-                    Point point = new Point(x,y);
-                    if(wireMap.containsKey(point)){
-                        wireMap.put(point, wireMap.get(point) + 1 );
-                    }
-                    else wireMap.put(point,1);
-
-
+                    dir[1] = -1;
             }
+
+//                            x -= Integer.parseInt(move.replaceAll("[\\D]", ""));
+//                Point point = new Point(x,y);
+//                if(wireMap.containsKey(point)){
+//                    wireMap.put(point, wireMap.get(point) + 1 );
+//                }
         }
 
 
