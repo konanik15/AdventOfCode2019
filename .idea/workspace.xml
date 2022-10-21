@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9c2e88-e49e-436b-8dff-35c2069fce28" name="Changes" comment="Day 3, AdventOfCode 2019">
+    <list default="true" id="3b9c2e88-e49e-436b-8dff-35c2069fce28" name="Changes" comment="&#10;Day 3,&#10;&#10;Finish 3b">
       <change afterPath="$PROJECT_DIR$/src/Day4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/day3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/day3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Day4.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +43,7 @@
     "last_opened_file_path": "C:/Users/Karakan Real Edition/IdeaProjects/AdventOfCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Day3">
+  <component name="RunManager" selected="Application.Day4">
     <configuration name="Day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day1" />
       <module name="AdventOfCode" />
@@ -64,8 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day4" />
+      <module name="AdventOfCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day4" />
         <item itemvalue="Application.Day3" />
         <item itemvalue="Application.Day2" />
         <item itemvalue="Application.Day1" />
@@ -123,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666039058986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&#10;Day 3,&#10;&#10;Finish 3b">
+      <created>1666297506966</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666297506966</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +157,8 @@
     <MESSAGE value="Day 1, AdventOfCode 2019" />
     <MESSAGE value="Day 2, AdventOfCode 2019" />
     <MESSAGE value="Day 3, AdventOfCode 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3, AdventOfCode 2019" />
+    <MESSAGE value="&#10;Day 3,&#10;&#10;Finish 3b" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Day 3,&#10;&#10;Finish 3b" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -149,6 +166,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AdventOfCode$Day2.ic" NAME="Day2 Coverage Results" MODIFIED="1665935726400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AdventOfCode$Day4.ic" NAME="Day4 Coverage Results" MODIFIED="1666300984952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AdventOfCode$Day1.ic" NAME="Day1 Coverage Results" MODIFIED="1665932847064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
